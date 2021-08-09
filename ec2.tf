@@ -1,5 +1,5 @@
 
-//Create some resources based on PUBLIC network and private network created in "networking-vpc" 
+//Create some resources based on PUBLIC network and private network created in "networking-vpc"
 resource "aws_instance" "bastion-public-terraform" {
   ami = "ami-0233c2d874b811deb"
   instance_type = "t2.nano"
